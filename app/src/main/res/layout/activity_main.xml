@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <EditText
+    android:id="@+id/et_stid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="enter student id:"
+    android:background="@drawable/mybg"
+    android:padding="16dp"
+    android:textStyle="bold"
+    android:layout_margin="5dp"
+    android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/et_stname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter student name:"
+        android:background="@drawable/mybg"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/et_stdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter student dob:"
+        android:background="@drawable/mybg"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/et_stmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter student marks:"
+        android:background="@drawable/mybg"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_insert"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="insert"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/btn_read"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="read"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="delete"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
