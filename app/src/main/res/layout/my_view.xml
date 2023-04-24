@@ -22,7 +22,7 @@
             android:text="text"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:textColor="#280861"
+            android:textColor="@color/purple_700"
             />
     </TableRow>
 
@@ -43,7 +43,7 @@
             android:layout_marginLeft="20dp"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:textColor="#280861"/>
+            android:textColor="@color/purple_700"/>
             />
     </TableRow>
 
@@ -64,7 +64,7 @@
             android:text="text"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:textColor="#280861"/>
+            android:textColor="@color/purple_700"/>
     </TableRow>
 
     <TableRow
@@ -85,7 +85,7 @@
             android:text="text "
             android:textSize="16sp"
             android:textStyle="bold"
-            android:textColor="#280861"/>
+            android:textColor="@color/purple_700"/>
     </TableRow>
 
 </TableLayout>
